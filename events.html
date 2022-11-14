@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button onclick="demo()">SUBMIT</button>
+<script type="text/javascript">
+	function demo(){
+		alert("WELCOME")
+	}
+</script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function save(){
+	/*var s=document.getElementById("event").innerHTML;
+	console.log(s)
+	var v=document.getElementById("sunny").innerHTML;
+	console.log(v)
+	var user=document.getElementById("user").value
+	console.log(user)*/
+	var group=document.getElementsByClassName("group")
+	var list=document.getElementsByTagName("li")
+	console.log(list)
+	for(var i=0;i<group.length;i++){
+		console.log(group[i].innerHTML)
+	}
+}
+</script>
+</head> 
+<body>
+	<input id="user"/>
+<h1 class="group">evnts in javascript</h1>
+<p class="group">i love sunny</p>
+<h1 class="group">good morning</h1>
+<p class="group">thank you</p>
+<h4 class="group">how r u</h4>
+<ul>
+	<li>ram</li>
+	<li>react</li>
+	<li>sita</li>
+	<li>hanuman</li>
+	<li>jesus</li>
+	<li>apple</li>
+</ul>
+<button onclick="save()">submit</button>
+</body>
+</html>
